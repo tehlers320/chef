@@ -22,5 +22,12 @@ module ChefConfig
 
     # Enable forcing Chef EULA
     ENFORCE_LICENSE = false
+
+    # The servers's alias (cinc-server)
+    SERVER = "cinc-server".freeze
+
+    # The server's configuration utility
+    SERVER_CTL = "cinc-server-ctl".freeze
+
   end
 end
